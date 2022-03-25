@@ -1,1 +1,110 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+<title>SRANKA</title>
+</head>
+<body>
+
+<div id="main">
+    <div class="top_bar">
+        <center><a href = "https://vykal.github.io/stranka/"><img src="https://vykal.github.io/stranka/hovno.png" width=35% height="120"/></a></center>
+    </div>
+    <div class="wraper">
+        <div class="left_bar">
+        <ul>
+            <li><a href = "https://vykal.github.io/stranka/"><button style="height:80px; width:400px; color:black; font-size:32px; background-color:#7f5539">Hlavna sranka</button></a></li>   
+            <li><a href = "https://vykal.github.io/stranka/info"><button style="height:80px; width:400px; color:black; font-size:32px; background-color:#7f5539">Info</button></a></li> 
+            <li><a href = "https://vykal.github.io/stranka/galeria"><button style="height:80px; width:400px; color:black; font-size:32px; background-color:#7f5539">Galeria</button></a></li> 
+            <li><a href = "https://vykal.github.io/stranka/kokontakt"><button style="height:80px; width:400px; color:black; font-size:32px; background-color:#7f5539">Kontakt</button></a></li> 
+        </ul>    
+        </div>
+        <div class="center">
+            <p>Vyber si jazyk :</p>
+<form>
+  <input type="radio" id="sr" name="fav_language" value="sr">
+  <label for="html">Slovenský</label><br>
+  <input type="radio" id="cs" name="fav_language" value="cs">
+  <label for="css">Český</label><br>
+  <input type="radio" id="en" name="fav_language" value="en">
+  <label for="javascript">Anglický</label>
+</form>  
+<br><br>
+
+<form>
+  <label for="fname">Meno:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Priezvisko:</label><br>
+  <input type="text" id="lname" name="lname">
+</form> 
+<br><br>
+
+<p>Mám rád :</p>
+<form>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> Bike</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Auto">
+  <label for="vehicle2"> Auto</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Mobil">
+  <label for="vehicle3"> Mobil</label>
+</form>
+<br><br>
+
+
+ <form>
+  <label for="fname">Meno:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Priezvisko:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Odoslať">
+</form>             
+        </div>
+        
+    </div>    
+</div>
+
+
+<style>
+*{
+margin:0;
+padding:0;
+}
+
+#main{
+position:relative;
+width:100%;
+height:185vh;
+background:red;
+}
+.top_bar{
+width:100%;
+height:13%;
+background:white;
+}
+.wraper{
+position:relative;
+width:100%;
+height:calc(100% - 13%);
+background:green;
+}
+.left_bar{
+position:absolute;
+left:0;
+width:20%;
+height:100%;
+background:#7f5539;
+}
+
+.center{
+position:absolute;
+right:0;
+width:80%;
+height:100%;
+background:#9c6644;
+}
+
+</style>
+
+
+</body>
+</html>
